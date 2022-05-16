@@ -1,0 +1,15 @@
+{
+  "name": "simple-login-with-microsoft-auth",
+  "version": "1.0.0",
+  "description": "simple-login-with-microsoft-auth",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "concurrently \"npm run start --prefix client/\" \"npm run start --prefix server/\""
+  },
+  "author": "MohamedRezq",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^7.1.0"
+  }
+}
